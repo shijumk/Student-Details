@@ -1,0 +1,24 @@
+
+<section>
+    <nav>
+      <ul>
+        <li><a class="link" href="#">Students</a></li>
+      </ul>
+    </nav>
+    
+    <article>
+      <h1>STUDENT RANKS</h1>
+         <p>
+<input type="text" id="filter-text-box" placeholder="Filter..." (keyup)="onFilterTextBoxChanged()">
+
+<ag-grid-angular
+    style="width: auto; height: 430px;"
+    class="ag-theme-alpine"
+    [gridOptions]="gridOptions"
+    [rowData]="studentData"
+    [columnDefs]="studentTblHeadings"
+>
+</ag-grid-angular>
+</p>
+</article>
+</section>

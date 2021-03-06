@@ -1,0 +1,65 @@
+[
+    {
+    "student_id": "100",
+    "name": "Sam",
+    "dob": "1990-12-02",
+    "subject_details": [{
+            "rank": "1",
+            "subject": "History",
+            "result": "pass"
+        },
+        {
+            "rank": "2",
+            "subject": "Biology",
+            "result": "pass"
+        },
+        {
+            "rank": "3",
+            "subject": "Politics",
+            "result": "fail"
+        }
+    ]
+    },
+    {
+        "student_id": "101",
+        "name": "Daan",
+        "dob": "1992-02-02",
+        "subject_details": [{
+                "rank": "3",
+                "subject": "History",
+                "result": "pass"
+            },
+            {
+                "rank": "1",
+                "subject": "Biology",
+                "result": "pass"
+            },
+            {
+                "rank": "2",
+                "subject": "Politics",
+                "result": "pass"
+            }
+        ]
+    },
+    {
+        "student_id": "102",
+        "name": "Levi",
+        "dob": "1990-05-11",
+        "subject_details": [{
+                "rank": "2",
+                "subject": "History",
+                "result": "pass"
+            },
+            {
+                "rank": "3",
+                "subject": "Biology",
+                "result": "pass"
+            },
+            {
+                "rank": "1",
+                "subject": "Politics",
+                "result": "pass"
+            }
+        ]
+    }
+]
